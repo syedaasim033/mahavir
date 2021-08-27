@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel = "icon" href ="mahavir-steel-logo.png" 
+        type = "image/x-icon">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>MAHAVIR STEELS</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <img src="mahavir-steel-logo.png" class="logo" alt="logo" />
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- links -->
+        <ul class="links">
+          <li>
+            <a href="index.html">home</a>
+          </li>
+          <li>
+            <a href="about.html">about</a>
+          </li>
+          <li>
+            <a href="projects.html">production</a>
+          </li>
+          <li>
+            <a href="contact.html">Quality</a>
+          </li>
+          <li>
+            <a href="contact.html">Accreditation</a>
+          </li>
+          <li>
+            <a href="contact.html">Application</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <!-- social media -->
+        <button class="se">SEND ENQUIRES</button>
+      </div>
+    </nav>
+    <div class="imgs"><img style="z-index:-1;transition: tranform .5s ease-out;"src="d.png">
+      
+    </div>
+     <section id="about" class="section">
+      <div class="title">
+        <h2 class="thri"><img src="th.svg"></h2>
+      </div>
+      
+    </section>
+    <!-- services -->
+    <section id="services" class="section">
+      <div class="title">
+        <h2>Our &nbsp;<span>Testimonials</span></h2>
+      </div>
+    </section>
+    <!-- contact -->
+    <section id="tours" class="section" id="acc" style=" background-image: linear-gradient(to right top, #303032, #2d2f31, #2a2f2f, #292e2c, #2a2c28);  ">
+      <div class="title">
+          
+        <h2 id="acc">Our &nbsp;<span>Accreditation</span></h2>
+
+      </div>
+      <img src="ss.png" width="1050px" height="200px" class="ss" style="border-radius: 20px;margin-left: 240px;margin-top: 50px;left: 100px;  top: 500px;">
+    </section>
+    <section id="vdo" class="section">
+      <div style="line-height: 2.6;"class="title">
+
+        <h2>About <span>Mahavir steel</span></h2>
+        <h2>Why <span>Mahavir steel is a world class Steel Manufacturer in India</span></h2>
+        <h3 style="margin-left: 30px;line-height: 1.6;text-indent: 50px;">Establish in 1968 Mahavir Steel Industries Ltd. is one of the leading manufacturers of Structural Steel in<br> western part of Maharastra (India).Quality is a way of life at MAHAVIR STEEL.Mahavir Steel product <br>portfoilo includes Angles,Channels, I Beams,Flats,Serrated Flats,RSJ Poles Rounds and Squares to <h3 style="margin-left: 100px;text-indent: 150px;">match diverse industrial and agricultural demands</h3></h3>
+
+        
+<img style="z-index: -1;margin-left: 130px;padding-top: 0px;"src="Mahavir Steel Corporate Brochure -Cover Image.jpg" width="1300px" height="1050px">
+      </div>
+    </section>
+    <section id="pro2" class="section">
+      <div class="title">
+        <h2 >OUR &nbsp;<span>PRODUCTS</span></h2>
+        <img src="Video Element.svg" width="1580rem" height="1000px" style="object-fit: cover;margin-left: 0px;padding-bottom: 50px;">
+      </div>
+    </section>
+    <section id="pro3" class="section">
+      <div class="title">
+        <p class="para">We at MAHAVIR STEEL INDUSTRIES LTD. (MSIL), will strive to provide customer satisfaction by implementing Quality Management System and continual improvements in products, processes and systems.
+We are committed to manufacture and supply Structural Steel of required standards, shapes and sizes as per mutually agreed specifications with the Customer.
+Improved communication within the organization and trained employees will provide us the required impetus to exceed customer's expectations & satisfaction.</p>
+      </div>
+    </section>
+     <section id="pro" class="section">
+      <div style="display: inline;"class="title">
+        <h2 >OUR &nbsp;<span>PRODUCTS</span></h2>
+        <div class="thumbs-block">
+  <div class="thumbs">
+      <ul class="products">
+        <li class="products1"></li>
+        <li class="products2"><img src="MSANGLES"></li>
+        
+      </ul>
+      <figcaption style="display: flex;flex-direction: row;margin-top: 0px;margin-left: 40px;">RSJ POLES</figcaption>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script type="text/javascript">
+         var $bl    = $(".thumbs-block"),
+        $th    = $(".thumbs"),
+        blW    = $bl.outerWidth(),
+        blSW   = $bl[0].scrollWidth,
+        wDiff  = (blSW/blW)-1,  // widths difference ratio
+        mPadd  = 60,  // Mousemove Padding
+        damp   = 20,  // Mousemove response softness
+        mX     = 0,   // Real mouse position
+        mX2    = 0,   // Modified mouse position
+        posX   = 0,
+        mmAA   = blW-(mPadd*2), // The mousemove available area
+        mmAAr  = (blW/mmAA);    // get available mousemove fidderence ratio
+
+  $bl.mousemove(function(e) {
+        mX = e.pageX - this.offsetLeft;
+        mX2 = Math.min( Math.max(0, mX-mPadd), mmAA ) * mmAAr;
+  });
+
+  setInterval(function(){
+    posX += (mX2 - posX) / damp; // zeno's paradox equation "catching delay"  
+    $th.css({marginLeft: -posX*wDiff });
+  }, 10);
+</script> 
+        
+        
+        
+      </div>
+    </section>
+    <div class="footer-container">
+      <div class="footer">
+        <div class="footer-heading  footer-1">
+        <h3>USEFUL LINKS</h3>
+        <a href="index.html" style="color: #999494">> &nbsp;HOME</a>
+        <a href="index.html" style="color: #999494">> &nbsp;About us</a>
+  <a href="index.html" style="color: #999494">> &nbsp;Quality</a>
+  <a href="index.html" style="color: #999494">> &nbsp;Infrastructure</a>
+  <a href="index.html" style="color: #999494">> &nbsp;Accreditation</a>
+  <a href="index.html" style="color: #999494">> &nbsp;Products</a>
+  <a href="index.html" style="color: #999494">> &nbsp;Gallery</a>
+  <a href="index.html" style="color: #999494">> &nbsp;Applicatons</a>
+  <a href="index.html" style="color: #999494">> &nbsp;Contact Us</a>
+  
+</div>
+    <div class="footer-heading  footer-1">
+        <h3>OUR ADDRESS</h3>
+        <h4>→ &nbsp;MUMBAI OFFICE:</h4>
+        <p style="color: #7F7A7A;margin-left: 30px;">417-19, Vyapar Bhavan, 49 PD Mello Road, Carnac<br>Bunder, Mumbai - 400009<br>Phone: 91-22-66331210, 66337573<br>Fax: 91-22-66331211<br>Mobile: 91-9223375674<br>E-mail: mumbaisales@mahavirsteel.com</p>
+        <a href="index.html"></a>
+  <a href="index.html"></a>
+  <a href="index.html"></a>
+  <a href="index.html"></a>
+  <a href="index.html"></a>
+  <a href="index.html"></a>
+</div>
+<div class="footer-heading  footer-1">
+        <h3>OUR ADDRESS</h3>
+        <h4>→ &nbsp;REGISTRED OFFICE:</h4>
+        <p style="color: #7F7A7A;margin-left: 30px;">Registered Office (Pune):<br>Plot No. E/4/24, M.I.D.C. Bhosari, Pune 411026<br>Phone: 91-20-27126335. 27121227<br>27120327, 27120971<br>Mobile: 91-9011025820, 9011025821<br>E-mail: sales@mahavirsteel.com</p>
+        <!--<a href="index.html">HOME</a>
+        <a href="index.html">HOME</a>
+  <a href="index.html">HOME</a>
+  <a href="index.html">HOME</a>
+  <a href="index.html">HOME</a>
+  <a href="index.html">HOME</a>
+  <a href="index.html">HOME</a>-->
+</div><div class="footer-heading  footer-1">
+        <h3>OUR ADDRESS</h3>
+        <h4>→ &nbsp;Plant:</h4>
+        <p style="color: #7F7A7A;margin-left: 30px;">Gat No. 236/1, Pune Solapur Road,<br>Yawat, Taluka Daund, Dist Pune-412214<br>Phone: 9011025830</p>
+        <!--<a href="index.html">HOME</a>
+        <a href="index.html">HOME</a>
+  <a href="index.html">HOME</a>
+  <a href="index.html">HOME</a>
+  <a href="index.html">HOME</a>
+  <a href="index.html">HOME</a>
+  <a href="index.html">HOME</a>-->
+</div>
+
+      </div>
+    </div><div  id="ft2"><div class="footer-heading2  footer-1">&nbsp;&nbsp;&nbsp;Any Queries:&nbsp;<a class="sl" id="sl"style="color: #0ED3F7;display: inline;
+  justify-content: initial;
+  flex-direction: row;
+  justify-content: center;"href="mailto: sales@mahaviesteel.com">sales@mahaviesteel.com</a></div><div style="margin-left: 560px;margin-right: 0px"class="footer-heading2  footer-1">Copyrights &copy; All Rights Reserved.Powered By &nbsp;<a class="sl" id="sl"style="color: #0ED3F7;display: inline;
+  justify-content: initial;
+  flex-direction: row;
+  justify-content: center;"href="www.mahavirsteel.com">Mahavir Steel Industry LTD</a></div></div></body>
+
+    <!-- javascript -->
+    <script type="text/javascript"src="app.js"></script>
+  </body>
+</html>
